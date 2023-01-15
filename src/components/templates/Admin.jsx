@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom"
-import MainMenu from "../molecules/header/MainMenu"
+import AdminMenu from "../molecules/header/AdminMenu"
 import MainHeader from "../organisms/MainHeader"
 
-const App = () => {
+const Admin = () => {
   return (
     <div>
         <MainHeader>
-          <MainMenu />
+            <AdminMenu />
         </MainHeader>
         {/* Imprimir lo que la página quiera */}
         <div className="pt-16 max-w-256 m-auto">
@@ -16,4 +16,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Admin
